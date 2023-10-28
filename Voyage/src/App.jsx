@@ -1,12 +1,17 @@
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Navbar from "./components/navbar";
+import Banner from "./pages/Banner";
+import Footer from "./pages/Footer2";
+// import Home from "./pages/Home";
+import Navbar from "./pages/navbar";
+import Slider from "./components/slider2";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home/>
+      <Banner/>
+      {/* <Slider/>
+      <Reviews/> */}
       <Footer/>
     </>
   );
